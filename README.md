@@ -34,13 +34,25 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+Adaptive websites are designed for specific sizes. Responsive websites are designed to respond the screen size and display items accordingly.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first design starts with designing the mobile UI first and then using min-width media queries to style the site. Desktop first is just the opposite using max-width media queries.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+This sets the page on a 10 based unit system. 1rem will be equivalent to 10px without requiring the developer to initiate a static font-size. If later the developer wants to go back and change the base font size all they have to do is change the font-size setting in the html tag.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is simply writing your styles using a preprocessing language (Less) and compiling that language in to a style sheet using a preprocessor that is installed via the terminal.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+I like the amount of control I can have over the content as well as using variables and mix-ins to create styles that can be changed in one place rather than hard coding the styles in to a style sheet that would otherwise have to be changed in multiple places.
+
+The things I have most trouble with using Less is that I'm probably writing more code than I need to. I need to condense my code and write less. A better understanding of working with variables and mixins will likely help me write cleaner more robust code without a lot of the fluff I seem to add.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -59,9 +71,9 @@ Follow these steps to set up your project:
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your project manager as a reviewer on the pull-request
-- [ ] Your project manager will count the project as complete by merging the branch back into master.
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Add your project manager as a reviewer on the pull-request
+- [x] Your project manager will count the project as complete by merging the branch back into master.
 
 
 ### Preprocessor Set up
@@ -118,7 +130,7 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [x] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
 
-* [ ] Push your changes and create a pull request if you haven't already.
+* [x] Push your changes and create a pull request if you haven't already.
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
