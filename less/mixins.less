@@ -1,1 +1,23 @@
 // Mixins Here
+.displayFlex () {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spacePadding {
+  padding: 1rem 2rem;
+}
+.buttonGenerator (@margin-right, @bg-color, @font-color, @padding-top, @padding-bottom, @padding-left, @padding-right, @max-width){
+  margin-right: @margin-right;
+  font-size: 1.7rem;
+  text-align: center;
+  border-radius: .5rem;
+  background-color: @bg-color;
+  color: @font-color;
+  padding-top: @padding-top;
+  padding-bottom: @padding-bottom;
+  padding-left: @padding-left;
+  padding-right: @padding-right;
+  max-width: @max-width;
+}
