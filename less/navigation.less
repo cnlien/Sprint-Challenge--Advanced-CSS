@@ -1,1 +1,36 @@
 // Navigation code here
+
+.navContainer {
+  .displayFlex();
+  flex-flow: column nowrap;
+  padding: 2rem 0;
+  background: @wild-sand;
+  border-bottom: @sea-shell;
+
+  .navLogo {
+    font-size: 5vw;
+    margin: 2rem 0;
+
+    @media @phone {
+      font-size: 10vw;
+    }
+  }
+
+  nav {
+    .displayFlex();
+    width: 70%;
+
+    .navLink {
+      color: @river-bend;
+      text-align: center;
+      text-decoration: none;
+      width: 20%;
+      font-size: 1.3rem;
+      padding: 2% 0;
+    }
+
+    .navLink:hover {
+      text-decoration: underline;
+    }
+  }
+}
